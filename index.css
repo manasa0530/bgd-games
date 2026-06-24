@@ -87,7 +87,7 @@ html,
     font-weight: 800;
 
 }
-.code-btn{
+/* .code-btn{
     padding: 8px;
     border-radius: 5px;
     cursor: alias;
@@ -95,6 +95,27 @@ html,
     color: gray;
     margin-top: 20px;
     margin-bottom: 10px;
+} */
+ .coupon-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.coupon-code{
+    width: 350px;
+    max-width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: alias;
+    border: 1px solid gray;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
 }
 .copy_code{
     background-color: #F0C102;
@@ -359,6 +380,18 @@ td{
     .whole-footer{
         flex-wrap: wrap;
     }
+    .card-para{
+        font-size: 18px;
+    }
+    .gam{
+        font-size: 26px;
+    }
+    .bgd_table{
+        display: none;
+    }
+    .individual-div2{
+        margin: 12px;
+    }
 }
 /* 80% mobiles */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -377,9 +410,22 @@ td{
     }
     .individual-div,.individual-div1{
         width: 100%;
+        margin: 5px !important;
     }
     .whole-footer{
         flex-wrap: wrap;
+    }
+    .card-para{
+        font-size: 18px;
+    }
+    .gam{
+        font-size: 25px;
+    }
+    .bgd_table{
+        display: none;
+    }
+    .individual-div2{
+        margin: 12px;
     }
 
 }
